@@ -49,6 +49,20 @@ student-mental-health-tracker/
 └── dashboard.html
 ```
 
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Sentiment Analysis Result
+
+![Result Page](screenshots/result.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
 ## Future Enhancements
 
 - User Authentication
