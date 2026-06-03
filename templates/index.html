@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Mental Health Tracker</title>
+</head>
+<body>
+
+    <h1>Student Mental Health Tracker</h1>
+
+    <form action="/submit" method="POST">
+
+        <label>Select Mood:</label>
+
+        <select name="mood">
+            <option>Happy 😊</option>
+            <option>Neutral 😐</option>
+            <option>Sad 😔</option>
+            <option>Stressed 😫</option>
+        </select>
+
+        <br><br>
+
+        <label>Journal Entry:</label>
+
+        <br>
+
+        <textarea
+            name="journal"
+            rows="6"
+            cols="50"
+            placeholder="Write about your day..."
+        ></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Save Entry
+        </button>
+
+    </form>
+
+</body>
+</html>
